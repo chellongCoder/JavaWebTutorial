@@ -19,5 +19,6 @@ public class Main {
         System.out.println("da thuc vua nhap> " + dathuc2);
         DaThuc dathuc = new DaThuc();
         System.out.println("tong 2 da thuc la> " + dathuc.tong2DaThuc(dathuc1, dathuc2));
+        System.out.println("tich 2 da thuc la> " + dathuc.Nhan2DaThuc(dathuc1, dathuc2));
     }
 }

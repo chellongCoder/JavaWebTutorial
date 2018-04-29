@@ -58,8 +58,8 @@ public class DaThuc {
         DaThuc dathuc = new DaThuc();
         
 //        int max = d1.getBac()>d2.getBac() ? d1.getBac() : d2.getBac();
-        DaThuc max  = d1.getBac()>d2.getBac() ? d1 : d2;
-        DaThuc min = d1.getBac()<d2.getBac() ? d1 : d2;
+        DaThuc max  = d1.getBac()>d2.getBac() ? d1 : d2; //lay ra da thuc co he so cao hon
+        DaThuc min = d1.getBac()<d2.getBac() ? d1 : d2; //lay ra da thuc co he so thap hon
 //        int min = d1.getBac()<d2.getBac() ? d1.getBac() : d2.getBac();
         double heSo[] = new double[max.getBac()+1];
         dathuc.setBac(max.getBac());
@@ -72,6 +72,29 @@ public class DaThuc {
             }
             
         }
+        dathuc.setHeSo(heSo);
+        return dathuc;
+    }
+    
+    public DaThuc Nhan2DaThuc(DaThuc d1, DaThuc d2) {
+        DaThuc dathuc = new DaThuc();
+        
+        int bac = d1.getBac() + d2.getBac();
+        dathuc.setBac(bac);
+        double[] heSo = new double[bac+1];
+//        int sum=0;
+        for (int i = 0; i <= bac; i++) {
+            heSo[i] = 0;
+            for (int j = 0; j <= i; j++) {
+                if(j>d1.getBac() || i-j>d2.getBac()) { //neu vuot qua bac cua 2 da thuc
+                    heSo[i]+=0; //cong voi 0
+                } else {
+                    heSo[i]+=d1.getHeSo()[j]*d2.getHeSo()[i-j];
+//                    cong thuc https://123doc.org/document/1301386-da-thuc-va-cac-phep-toan-tren-da-thuc.htm
+                }
+            }
+        }
+        
         dathuc.setHeSo(heSo);
         return dathuc;
     }
