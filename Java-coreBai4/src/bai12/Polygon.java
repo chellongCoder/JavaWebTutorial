@@ -9,7 +9,7 @@ package bai12;
  *
  * @author chellong
  */
-public class Polygon {
+public class Polygon{
     protected double tinhChuVi() {
         return 0;
     }

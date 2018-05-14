@@ -14,7 +14,7 @@ public class FlashLamp {
     private Battery battery;
 
     public FlashLamp() {
-        this.status = true;
+        this.status = false;
         this.battery = null;
     }
 

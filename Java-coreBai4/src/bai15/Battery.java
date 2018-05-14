@@ -24,7 +24,7 @@ public class Battery {
         this.energy = energy;
     }
     
-    void decreaseEnergy() {
+    public void decreaseEnergy() {
         this.energy-=2;
     }
 }

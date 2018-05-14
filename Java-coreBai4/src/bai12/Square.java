@@ -10,7 +10,8 @@ package bai12;
  * @author chellong
  */
 public class Square extends Rectangle{
-
+    private double canh;
+    
     public Square(double canh) {
         this.canh = canh;
     }
@@ -18,7 +19,6 @@ public class Square extends Rectangle{
     public Square() {
     }
     
-    private double canh;
 
     @Override
     public double tinhDienTich() {

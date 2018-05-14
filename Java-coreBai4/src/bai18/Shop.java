@@ -83,6 +83,7 @@ public class Shop {
                 i++;
             }
             System.out.println((float)sum/i);
+            System.out.println();
         }
     }
     
