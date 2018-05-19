@@ -31,7 +31,7 @@ public class Store {
                 products[index++] = p;
             }break;
             case 2: {
-                Camera cam = new Camera();
+                Product cam = new Camera();
                 cam.addNew();
                 products[index++] = cam;
             }

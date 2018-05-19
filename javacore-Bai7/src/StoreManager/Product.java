@@ -12,10 +12,10 @@ import java.util.Scanner;
  * @author chellong
  */
 public class Product {
-    private int id;
-    private String name;
-    private double price;
-    private int quantity;
+    protected int id;
+    protected String name;
+    protected double price;
+    protected int quantity;
 
     public Product() {
     }
