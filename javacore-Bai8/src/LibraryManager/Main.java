@@ -11,9 +11,9 @@ import java.util.Scanner;
  *
  * @author chellong
  */
-
 public class Main {
-    public  static int menu() {
+
+    public static int menu() {
         System.out.println("========================");
         System.out.println("1. input");
         System.out.println("2. output");
@@ -24,14 +24,14 @@ public class Main {
         int choice = new Scanner(System.in).nextInt();
         return choice;
     }
+
     public static void main(String[] args) {
         LibraryManager lib = new LibraryManager();
         int choice;
-        do {            
+        do {
             choice = menu();
             switch (choice) {
-                case 1:
-                {
+                case 1: {
                     System.out.println("1. Paper");
                     System.out.println("2. Book");
                     System.out.println("3. Thesis");
@@ -41,8 +41,9 @@ public class Main {
                 break;
                 case 2: {
                     lib.output();
-                }break;
-                
+                }
+                break;
+
                 case 3: {
                     System.out.println("1. Paper");
                     System.out.println("2. Book");
@@ -57,9 +58,10 @@ public class Main {
                             break;
                         case 3:
                             lib.Search(LibraryManager.Thesises);
-                            break;                                
+                            break;
                     }
-                } break;
+                }
+                break;
             }
         } while (true);
     }

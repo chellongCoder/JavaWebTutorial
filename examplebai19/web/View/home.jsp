@@ -12,7 +12,7 @@
         <title>Upload singleFile</title>
     </head>
     <body>
-        <form method="POST" enctype="multipart/form-data" action="fup.cgi">
+        <form method="POST" enctype="multipart/form-data" action="HomeController">
         File to upload: <input type="file" name="file"><br/>
         Notes about the file: <input type="text" name="note"><br/>
         <br/>

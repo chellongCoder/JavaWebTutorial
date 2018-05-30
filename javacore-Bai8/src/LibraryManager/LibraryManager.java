@@ -79,12 +79,17 @@ public class LibraryManager {
     
     public void Search (Document[] docs) {
         boolean check = false;
+        System.out.println("nhap ten doc ban can tim: ");
         String name = new Scanner(System.in).nextLine();
-        for(Document d : docs) {
-            if(d.getTitle().equalsIgnoreCase(name)) {
-                System.out.println(d);
+        String docName= docs.getClass().getName().substring(docs.getClass().getName().indexOf(".")+1, docs.getClass().getName().indexOf(";"));
+        System.out.println(docName);
+        int i =0;
+        while(docs[i]!=null){
+            if(docs[i].getTitle().equalsIgnoreCase(name)) {
+                System.out.println(docs[i]);
                 check = true;
             }
+            i++;
         }
         if(!check) {
             System.out.println("khong co doc ten " + name);
