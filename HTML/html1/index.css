@@ -1,0 +1,36 @@
+*{
+	padding: 0; 
+	margin: 0;
+}
+
+.header {
+	background: yellow;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.tac-gia {
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.noi-dung1 {
+	margin: auto;
+	text-align: center;
+	color: blue;
+	margin-top: 10px;
+}
+
+.noi-dung2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	float: right;
+	width: 30%;
+	margin-top: 30px;
+}
