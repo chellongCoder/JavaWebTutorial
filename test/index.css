@@ -1,0 +1,45 @@
+*{margin : 0px; padding: 0px;}
+body {
+	background-color: #828282;
+}
+.html {
+	border: 1px solid black;
+}
+.content {
+	padding : 1% 0 1% 2%;
+}
+.head {
+	width : 95%;
+	padding: 1% 0 1% 0;
+	border: 1px solid black;
+}
+.title {
+	border: 1px solid black;
+	padding: 1% 1% 1% 0 ;
+	margin : 1% 0 1% 1% ;
+	width : 85%;
+}
+.body {
+	border: 1px solid black;
+	margin-top: 1%;
+	width : 95%;
+}
+.body-content {
+	padding: 1% 0 1% 1%;
+	border: 1px solid black;
+	margin : 1% 0% 1% 1%;
+	background-color: white;
+	width : 84%;
+}
+.h1 {
+	border: 1px solid black;
+	padding: 1% 0 1% 0;
+	width : 95%;
+}
+.p {
+	border: 1px solid black;
+	margin-top: 1%;
+	padding: 1% 0 1% 0;
+		width : 95%;
+
+}
