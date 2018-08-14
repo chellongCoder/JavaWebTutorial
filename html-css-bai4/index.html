@@ -10,11 +10,14 @@
 
 <body>
     <script>
+
     function process() {
         // body... 
         var num1 = document.getElementById('num1').value;
         var num2 = document.getElementById('num2').value;
         var pattern = /^\d+$/;
+        var arr = [];
+       	arr.push('string');
         if (!pattern.test(num1) || !pattern.test(num2)) {
             document.getElementById('error').innerHTML = 'Number format exception';
             return;
@@ -25,7 +28,7 @@
     </script>
     <h1>tinh tong</h1>
     <input id="num1" type="text" name=""> +
-    <input id="num2" type="text" name=""> = <span id="result"></span>
+    <input id="num2" type="text" name=""> = <span id="result">string</span>
     <div>
         <button onclick="process()" type="">click</button>
         <p style="color:red" id="error"></p>
