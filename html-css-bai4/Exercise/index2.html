@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>htmlcssbai4-baitapvenha</title>
+	<link rel="stylesheet" href="index2.css">
+	<script src="common.js"></script>
+</head>
+
+<body>
+	<form method="get" accept-charset="utf-8">
+		<div class="name">
+			<label>Name :</label> <input onfocus="changeText(this)" type="text" name="txtName">
+			<span class="has-error" id="nameError"></span>
+		</div> 
+		<div class="email">
+			<label>Email :</label> <input  onfocus="changeText(this)" type="text" name="txtEmail">
+			<span class="has-error" id="emailError"></span>
+		</div>
+		<div class="website">
+			<label>Website :</label> <input  onfocus="changeText(this)" type="text" name="txtWebsite">
+			<span class="has-error" id="websiteError"></span>
+		</div>
+		<div class="message">
+			<label>Message :</label> <textarea  onfocus="changeText(this)" name="txtMessage" cols="30" rows="5"></textarea>
+			<span class="has-error" id="messageError"></span>
+		</div>
+	</form>
+	<div class="submit">
+		<button onclick="submit()" type="">submit</button>
+	</div>
+</body>
+<script>
+	var nameElement = document.getElementsByName('txtName')[0],
+		emailElement = document.getElementsByName('txtEmail')[0],
+		websiteElement = document.getElementsByName('txtWebsite')[0],
+		messageElement = document.getElementsByName('txtMessage')[0];
+	var nameError=document.getElementById('nameError'), 
+		emailError=document.getElementById('emailError'),
+		websiteError=document.getElementById('websiteError'),
+		messageError=document.getElementById('messageError');
+	var elements = [{ element: nameElement,error:  nameError }, {element :emailElement , error:emailError}, {element : websiteElement, error: websiteError}, {element: messageElement , error: messageError}];
+	function checkEmptyInput(element) {
+		if(element.element.value==='') {
+			changeStyle(element, Color.backgroundColorError, Color.borderColorError);
+			return true;
+		}
+		return false;
+	}
+	function showError(element) {
+		let name = element.element.name;
+		switch(name) {
+			case TXTNAME:
+				element.error.innerText = 'name field is required';
+				break;
+			case TXTEMAIL:
+				element.error.innerText = 'email field is required';
+				break;
+			case TXTWEBSITE: 
+				element.error.innerText = 'url field is required';
+				break;
+			case TXTMESSAGE: 
+				element.error.innerText = 'message field is required';
+				break;
+		}
+	}
+	function changeStyle (element, backgroundColor, borderColor) {
+		// body... 
+		element.element.style.backgroundColor = backgroundColor;
+		element.element.style.border = "2px solid ";
+		element.element.style.borderColor = borderColor;
+		element.error.style.color = Color.borderColorError;
+	}
+	function changeText(element) {
+		elements.forEach( function(value, index) {
+			if(validation.isSame(value.element, element)) {
+				value.error.innerText='';
+				changeStyle(value, Color.backgroundColor, Color.borderColor);
+				return;
+			}
+		});
+	}
+	function checkName(element) {
+		if(!validation.isString(element.element.value)) {
+			element.error.innerText = 'name field is not valid';
+			changeStyle(element, Color.backgroundColorError, Color.borderColorError);
+		} else {
+			element.error.innerText = 'OK';
+			element.error.style.color=Color.sucessMessage;
+		}
+	}
+	function checkEmail(element) {
+		if(!validation.isEmailAddress(element.element.value)) {
+			element.error.innerText = 'email field is not valid';
+			changeStyle(element, Color.backgroundColorError, Color.borderColorError);
+		} else {
+			element.error.innerText = 'OK';
+			element.error.style.color=Color.sucessMessage;
+		}
+	}
+	function checkURL (element) {
+		// body... 
+		if(!validation.isURL(element.element.value)) {
+			element.error.innerText = 'website field is not valid';
+			changeStyle(element, Color.backgroundColorError, Color.borderColorError);
+		} else {
+			element.error.innerText = 'OK';
+			element.error.style.color=Color.sucessMessage;
+		}
+	}
+	function validatedValue(element) {
+		switch(element.element.name) {
+			case TXTNAME:
+				checkName(element);
+				break;
+			case TXTEMAIL:
+				checkEmail(element);
+				break;
+			case TXTWEBSITE: 
+				checkURL(element);
+				break;
+			case TXTMESSAGE: 
+				
+				break;
+		}
+	}
+	function submit () {		
+		elements.forEach( function(element, index) {
+			console.log(element);
+			if(checkEmptyInput(element)) {
+				showError(element);
+				return;
+			}
+			validatedValue(element);
+		});
+	}
+</script>
+</html>

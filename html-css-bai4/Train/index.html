@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>demo validated form</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="common.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="nameField">
+			<label>Name: </label> <input onfocus="onChangeText(this)" type="text" name="nameElement">
+			<span id="nameError"></span>
+		</div>
+		<div class="emailField"> 
+			<label>Email: </label> <input onfocus="onChangeText(this)" type="text" name="emailElement">
+			<span id="emailError"></span>
+		</div>
+		<div class="websiteField">
+			<label>Website: </label> <input onfocus="onChangeText(this)" type="text" name="websiteElement">
+			<span id="urlError"></span>
+		</div>
+		<div class="messageField">
+			<label>Message: </label> 
+			<textarea onfocus="onChangeText(this)" cols="30" rows="5" name="messageElement"></textarea>
+			<span id="messError"></span>
+		</div>
+		<div class="submit">
+			<button type="" id="submit" onclick="submit()">Submit</button>	
+		</div>
+	</div>
+	<script>
+		 const nameElement = document.getElementsByName('nameElement')[0],
+			emailElement = document.getElementsByName('emailElement')[0],
+			websiteElement = document.getElementsByName('websiteElement')[0],
+			messageElement = document.getElementsByName('messageElement')[0];
+
+		const nameError = document.getElementById('nameError'),
+			emailError = document.getElementById('emailError'),
+			urlError = document.getElementById('urlError'),
+			messError = document.getElementById('messError');
+
+		const elements = [
+			{element : nameElement, error : nameError},
+			{element : emailElement, error : emailError},
+			{element : websiteElement, error : urlError},
+			{element : messageElement, error : messError},
+		];
+		function onChangeText(value) {
+			elements.forEach( function(element, index) {
+				// statements
+				if(value===element.element) {
+					element.error.innerText = '';
+					element.element.style.backgroundColor = '#FFFFFF';
+					element.element.style.borderColor = 'black';
+				}
+			});
+		}
+		function showError (element) {
+			// body... 	
+			switch(element.element.name) {
+				case 'nameElement':
+					nameError.innerText='name field is required';
+					nameError.style.color = 'red';
+					break;
+				case 'emailElement':
+					emailError.innerText='email field is required';
+					emailError.style.color = 'red';
+					break;
+				case 'websiteElement':
+					urlError.innerText='website field is required';
+					urlError.style.color = 'red';
+					break;
+				case 'messageElement':
+					messError.innerText='Message field is required';
+					messError.style.color = 'red';
+					break;
+			}
+		}
+		function checkEmptyValue (element) {
+			// body... 
+			if(element.element.value==='') {
+				element.element.style.backgroundColor = '#e89f9f';
+				element.element.style.borderColor = 'red';	
+				return true;
+			}
+			return false;
+		}
+		function submit () {
+			// body...
+			elements.forEach( function(element, index) {
+				// statements
+				if(checkEmptyValue(element)) {
+					showError(element);
+				}
+			});
+		}
+	</script>
+</body>
+</html>

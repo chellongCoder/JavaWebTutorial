@@ -1,0 +1,39 @@
+.name {
+	margin-bottom: 10px;
+	width : 400px;
+}
+ .name  input {
+ 	position: absolute;
+ 	left : 100px;
+	/*float: right;*/
+}
+.email input {
+	position: absolute;
+ 	left : 100px;
+}
+.website input {
+	position: absolute;
+ 	left : 100px;
+}
+.message textarea {
+ 	position: absolute;
+ 	left : 100px;
+}
+.email {
+	margin-bottom: 10px;
+	width : 400px;
+}
+.website {
+	margin-bottom: 10px;
+	width : 400px;
+}
+.message {
+	margin-bottom: 10px;
+	width : 500px;
+}
+.has-error {
+	float : right ;
+}
+.submit {
+	margin-top: 29px;
+}

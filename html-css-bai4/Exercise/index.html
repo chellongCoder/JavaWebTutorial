@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .has-error {
+            font-size: 12px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td><label>Name: </label></td>
+            <td>
+                <input id="txtName" type="text">
+                <span class="has-error" id="nameErr"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Email: </label></td>
+            <td>
+                <input id="txtEmail" type="text">
+                <span class="has-error" id="emailErr"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Website: </label></td>
+            <td>
+                <input id="txtSite" type="text">
+                <span class="has-error" id="siteErr"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Message: </label></td>
+            <td>
+                <textarea name="" id="txtMess" cols="30" rows="5"></textarea>
+                <span class="has-error" id="messErr"></span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="submit()">Submit</button></td>
+        </tr>
+    </table>
+    
+    <script>
+        var nameElement = document.getElementById('txtName');
+        var emailElement = document.getElementById('txtEmail');
+        var siteElement = document.getElementById('txtSite');
+        var messElement = document.getElementById('txtMess');
+        var nameErr = document.getElementById('nameErr');
+        var emailErr = document.getElementById('emailErr');
+        var siteErr = document.getElementById('siteErr');
+        var messErr = document.getElementById('messErr');
+        function submit() {
+            // lấy thông tin ng dùng nhập vào 
+            var name = nameElement.value;
+            var email = emailElement.value;
+            var site = siteElement.value;
+            var mess = messElement.value;
+            // kiểm tra xem đã nhập đúng thông tin chưa
+            // TODO
+            // Tìm phương án rút gọn đoạn code dưới đây.??
+            if (name == "") {
+                nameErr.innerText = "This field is required";
+                nameElement.style.backgroundColor = "#e89f9f";
+                nameElement.style.border = "2px solid red";
+            } else {
+                nameErr.innerText = "";
+                nameElement.style.backgroundColor = "#fff";
+                nameElement.style.border = "1px solid gray";
+            }
+            if (email == "") {
+                emailErr.innerText = "This field is required";
+                emailElement.style.backgroundColor = "#e89f9f";
+                emailElement.style.border = "2px solid red";
+            } else {
+                emailErr.innerText = "";
+                emailElement.style.backgroundColor = "#fff";
+                emailElement.style.border = "1px solid gray";
+            }
+            if (site == "") {
+                siteErr.innerText = "This field is required";
+                siteElement.style.backgroundColor = "#e89f9f";
+                siteElement.style.border = "2px solid red";
+            }  else {
+                siteErr.innerText = "";
+                siteElement.style.backgroundColor = "#fff";
+                siteElement.style.border = "1px solid gray";
+            }
+            if (mess == "") {
+                messErr.innerText = "This field is required";
+                messElement.style.backgroundColor = "#e89f9f";
+                messElement.style.border = "2px solid red";
+            }  else {
+                messErr.innerText = "";
+                messElement.style.backgroundColor = "#fff";
+                messElement.style.border = "1px solid gray";
+            }
+        }
+    </script>
+</body>
+</html>
