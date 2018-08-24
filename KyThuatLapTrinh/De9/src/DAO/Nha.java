@@ -43,7 +43,5 @@ public class Nha extends BatDongSan {
                 System.err.println("nhap sai loai nha!");
                 return 0;
         }
-    }
-    
-    
+    } 
 }
