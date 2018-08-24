@@ -74,7 +74,7 @@ public class SoNguyenTo {
             return;
         }
         if(kiemTraSoNguyenTo(so, 2)) {
-            System.out.println(so + " ");
+            System.out.print(so + " ");
         }
         suDungDeQuy(so - 1);
     }
