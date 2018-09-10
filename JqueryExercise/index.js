@@ -1,17 +1,5 @@
 $(document).ready(function() {
-	// $("#register").validate({
-	// 	rules : {
-	// 		firstname : 'required',
-	// 		lastname : 'required',
-	// 	},
-	// 	message : {
-	// 		firstname : 'Please enter your first name',
-	// 		lastname : 'Please enter your last name'
-	// 	}, 
-	// 	submitHandler : function (form) {
-	// 		form.submit();
-	// 	}
-	// });
+
 
 		const firstname = $("#firstname");
 		const lastname = $("#lastname");
@@ -70,17 +58,7 @@ $(document).ready(function() {
 			});
 		}
 		$("#register").submit(function(event) {
-		/* Act on the event */
-		// console.log(
-		// 	firstname.val(),
-		// 	lastname.val(),
-		// 	username.val(),
-		// 	email.val(),
-		// 	address.val(),
-		// 	address2.val(),
-		// 	countries.find("option:selected").text(),
-		// 	states.find("option:selected").text()
-		// );
+
 		
 		for (index in elementInputs) {
 			// statement
