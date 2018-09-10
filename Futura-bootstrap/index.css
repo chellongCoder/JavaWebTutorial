@@ -1,0 +1,105 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --hover: #EEEEEE;
+    --main-color: #00ADA7;
+    --section: #EBEBEB;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+body {
+    font-family: var(--font-family-sans-serif);
+}
+div {
+    font-size: 14px;
+    line-height: 25px;
+}
+/*navigation*/
+.main-navigation {
+    font-family: var(--font-family-monospace);
+}
+.main-navigation .menu .menu-item {
+    color : var(--secondary);
+    text-decoration: none;
+}
+.main-navigation .menu .menu-item:hover {
+    color : var(--main-color);
+    text-decoration: none;
+}
+
+/*section*/
+.main-content {
+    background-color: var(--section);
+}
+.main-content .welcome-content {
+    background-color: var(--light);
+    margin-left: auto;
+}
+.main-content .post-header {
+    font-size : 35px;
+    font-family: var(--font-family-monospace);
+    line-height: 35px;
+}
+.main-content .post-meta span {
+    color : var(--gray);
+}
+.main-content .post-meta a {
+    color : var(--main-color);
+}
+.main-content .post-center {
+    font-family: var(--font-family-monospace);
+    font-size: 25px;
+}
+.main-content .footer-welcome {
+    color : var(--dark);
+}
+.main-content .footer-welcome .float-left i a {
+     color : var(--dark);
+     opacity: 0.5;
+}
+.main-content .footer-welcome .float-left i a:hover {
+    color : var(--main-color);
+    opacity: 1;
+}
+.main-content .footer-welcome .float-right i {
+    border : 1px solid var(--section);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 0.6;
+}
+.main-content .footer-welcome .float-right i:hover {
+    border : 1px solid var(--section);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: var(--main-color);
+    color : white;
+    opacity: 1;
+}
