@@ -87,6 +87,14 @@ public class StudentModel {
 
         return rs;
     }
+    
+    public static int deleteStudent (String id) throws Exception {
+        String query = "delete from SinhVien\n" +
+"where id = ?";
+        PreparedStatement statement = Connector.getConnection().prepareStatement(query);
+        statement.setString(1, id);
+        return statement.executeUpdate();
+    }
      public static void main(String[] args) {
         try {
             List<SinhVien> list = getAll();

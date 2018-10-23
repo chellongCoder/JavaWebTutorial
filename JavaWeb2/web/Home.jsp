@@ -57,7 +57,7 @@ and open the template in the editor.
                     <td scope="row"><%=list.get(i).getLop()%></td>
                     <td scope="row">
                         <button onclick="window.location.href='update_student.jsp?id=<%=list.get(i).getId()%>'" class="btn btn-warning">Sửa</button>
-                        <button class="btn btn-danger">Xoá</button>
+                        <button class="btn btn-danger" onclick="window.location.href='delete?id=<%=list.get(i).getId()%>'">Xoá</button>
                     </td>
                 </tr>
                 <%
