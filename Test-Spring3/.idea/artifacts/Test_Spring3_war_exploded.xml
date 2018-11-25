@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Test-Spring3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Test_Spring3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb-Spring-Anotation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb-Spring-Anotation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.12" />
+          <element id="library" level="project" name="jstl-api" />
+          <element id="library" level="project" name="jstl-impl" />
+          <element id="library" level="project" name="com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="javax.persistence:javax.persistence-api:2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

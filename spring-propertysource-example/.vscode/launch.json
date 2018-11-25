@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainApp",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.boraji.tutorial.spring.MainApp",
+            "args": "",
+            "projectName": "spring-propertysource-example"
+        }
+    ]
+}

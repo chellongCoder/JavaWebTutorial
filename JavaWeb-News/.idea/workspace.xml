@@ -7,13 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bf5f41d-45bb-48d2-a75a-7560f5d6d708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Servlet/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/JavaWebTutorial_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/artifacts/Test_Spring3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/libraries/mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/Test-Spring3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/src/com/java/spring/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/src/com/java/spring/db/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-Spring3/web/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/artifacts/Test_spring_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/Test-spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/artifacts/Test_spring1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/JavaWeb-Spring-Anotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/src/com/java/spring/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-spring1/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BlogHTML" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogHTML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleBai11/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleBai11/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_News_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWeb_News_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb01/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb01/nbproject/project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb2/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb2/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb2/nbproject/project.properties" afterDir="false" />
@@ -77,8 +120,11 @@
     <session id="1879707860">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -121,11 +167,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Model/NewManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="75">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +185,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/DB/Connector.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+                <state relative-caret-position="105">
+                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -154,8 +197,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servlet/HomeServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+                <state relative-caret-position="165">
+                  <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -163,7 +206,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/BEAN/New.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-731">
+                <state relative-caret-position="165">
                   <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
                   <folding>
                     <element signature="e#623#624#0" expanded="true" />
@@ -191,7 +234,7 @@
             <entry file="file://$PROJECT_DIR$/src/BEAN/Author.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -199,17 +242,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servlet/HomeServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="99">
+                <state relative-caret-position="540">
                   <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#3837#3838#0" expanded="true" />
-                    <element signature="e#3879#3880#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -217,8 +255,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Servlet/SearchServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="39" />
+                <state relative-caret-position="225">
+                  <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -226,8 +264,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/index.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="79" lean-forward="true" selection-end-line="89" />
+                <state relative-caret-position="1185">
+                  <caret line="79" selection-end-line="89" />
                 </state>
               </provider>
             </entry>
@@ -374,7 +412,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541520806519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541521288793" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -537,7 +575,9 @@
       <updated>1541427821656</updated>
       <workItem from="1541427825512" duration="7219000" />
       <workItem from="1541435611609" duration="5914000" />
-      <workItem from="1541508035859" duration="8878000" />
+      <workItem from="1541508035859" duration="9173000" />
+      <workItem from="1542086754706" duration="832000" />
+      <workItem from="1542512861892" duration="2607000" />
     </task>
     <servers />
   </component>
@@ -556,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22011000" />
+    <option name="totallyTimeSpent" value="25745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +610,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70197487" visible="true" weight="0.13805436" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70120484" visible="true" weight="0.14091559" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -578,7 +618,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.29802513" side_tool="true" visible="true" weight="0.13805436" />
+      <window_info id="Web" order="8" sideWeight="0.2987952" side_tool="true" visible="true" weight="0.14091559" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
@@ -587,7 +627,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32891566" />
@@ -618,26 +658,26 @@
     <entry file="file://$PROJECT_DIR$/JavaWeb-News.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DB/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BEAN/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BEAN/New.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
+        <state relative-caret-position="165">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#623#624#0" expanded="true" />
@@ -660,41 +700,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/BEAN/Author.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlet/HomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="79" lean-forward="true" selection-end-line="89" />
+        <state relative-caret-position="1185">
+          <caret line="79" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlet/SearchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" />
+        <state relative-caret-position="225">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/NewManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

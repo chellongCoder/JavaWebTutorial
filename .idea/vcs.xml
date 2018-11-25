@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BlogHTML" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Futura-bootstrap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JqueryExercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JqueryIntroduction" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Shopping-web-Jsp-Servlet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html-css-bootstrap/CommonTemplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html-css-bootstrap/bikes-for-refugees" vcs="Git" />
+  </component>
+</project>

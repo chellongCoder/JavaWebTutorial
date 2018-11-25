@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chellong
-  Date: 11/5/18
-  Time: 9:23 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -56,16 +49,6 @@
     </div>
   </c:forEach>
 
-  <%--<div class="card mb-5">--%>
-    <%--<div class="card-body">--%>
-      <%--<h5 class="card-title">Card title</h5>--%>
-      <%--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional--%>
-        <%--content. This content is a little bit longer.</p>--%>
-      <%--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>--%>
-    <%--</div>--%>
-    <%--<!-- <img class="card-img-bottom" src=".../100px180/" alt="Card image cap"> -->--%>
-  <%--</div>--%>
-
   <nav aria-label="Page navigation pt-1">
     <ul class="pagination">
       <li class="page-item">
@@ -74,7 +57,6 @@
           <span class="sr-only">Previous</span>
         </a>
       </li>
-
       <c:forEach var="index" begin="1" end="${pages}">
         <c:choose>
           <c:when test="${index == currentPage}">
@@ -85,11 +67,7 @@
             <li class="page-item"><a class="page-link" href="home?page=${index}">${index}</a></li>
           </c:otherwise>
         </c:choose>
-
       </c:forEach>
-
-      <%--<li class="page-item"><a class="page-link" href="#">2</a></li>--%>
-      <%--<li class="page-item"><a class="page-link" href="#">3</a></li>--%>
       <li class="page-item">
         <a class="page-link" href="home?page=${currentPage+1}" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>
@@ -100,8 +78,6 @@
   </nav>
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
