@@ -4,8 +4,9 @@
     Author     : chellong
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" session="false"%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 
@@ -20,11 +21,11 @@
         crossorigin="anonymous">
     <style>
         .header-login {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
 </head>
 
 <body>
@@ -38,21 +39,44 @@
                         <div>Login</div>
                     </div>
                     <div class="card-body">
+                        <c:if test="${login != null}">
+                            <div class="alert alert-danger">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                <strong>Password and Username is incorrected</strong>
+                            </div>
+
+                        </c:if>
+
+                        <c:if test="${logout != null}">
+                            <div class="alert alert-info">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                <strong>Logout Success!</strong>
+                            </div>
+                        </c:if>
+
 
                         <form:form action="auth.view" method="POST" role="form" modelAttribute="user">
                             <div class="form-group">
                                 <label for="username">UserName</label>
-                                <form:input path="username" type="text" class="form-control" id="username" placeholder="Input field"/>
+                                <form:input path="username" type="text" class="form-control" id="username" placeholder="Input field" />
                             </div>
 
                             <div class="form-group">
                                 <label for="password">password</label>
-                                <form:input path="password" type="password" class="form-control" id="password" placeholder=""/>
+                                <form:input path="password" type="password" class="form-control" id="password"
+                                    placeholder="" />
                             </div>
 
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form:form>
 
+                            <div class="checkbox">
+                                <label>
+                                    <input id="remember" name="remember" type="checkbox" value="remember">
+                                    Remember me
+                                </label>
+                            </div>
+
+                            <button onclick="submit()" type="submit" class="btn btn-primary">Submit</button>
+                        </form:form>
                     </div>
                     <div class="card-footer text-muted">
                         Footer
